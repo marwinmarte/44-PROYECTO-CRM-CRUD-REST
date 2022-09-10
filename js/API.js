@@ -1,10 +1,10 @@
-const url = "https://my-json-server.typicode.com/marwinmarte/jsonprueba/clientes";
+const url = "http://localhost:3000/estudiantes"; 
 
-export const nuevoCliente = async cliente => {
+export const nuevoEstudiante = async estudiante => {
     try {
         await fetch(url, {
             method: 'POST', 
-            body: JSON.stringify(cliente), // data puede ser string o un objeto
+            body: JSON.stringify(estudiante), // data puede ser string o un objeto
             headers:{
               'Content-Type': 'application/json' // Y le decimos que los datos se enviaran como JSON
             }
@@ -14,32 +14,32 @@ export const nuevoCliente = async cliente => {
     }
 }
 
-export const obtenerClientes = async () => {
+export const obtenerEstudiantes = async () => {
     try {
         const resultado = await fetch(url);
-        const clientes = await resultado.json();
-        return clientes;
+        const estudiantes = await resultado.json();
+        return estudiantes;
     } catch (error) {
         console.log(error);
     }
 }
 
-export const obtenerCliente = async id => {
+export const obtenerEstudiante = async id => {
     try {
         const resultado = await fetch(`${url}/${id}`);
-        const cliente = await resultado.json();
-        return cliente;
+        const estudiante = await resultado.json();
+        return estudiante;
     } catch (error) {
         console.log(error);
     }
 }
 
 
-export const editarCliente = async cliente => {
+export const editarEstudiante = async estudiante => {
     try {
-        await fetch(`${url}/${cliente.id}`, {
+        await fetch(`${url}/${estudiante.id}`, {
             method: 'PUT', 
-            body: JSON.stringify(cliente), // data puede ser string o un objeto
+            body: JSON.stringify(estudiante), // data puede ser string o un objeto
             headers:{
               'Content-Type': 'application/json' // Y le decimos que los datos se enviaran como JSON
             }
@@ -49,7 +49,7 @@ export const editarCliente = async cliente => {
     }
 }
 
-export const eliminarCliente = async id => {
+export const eliminarEstudiante = async id => {
     try {
         await fetch(`${url}/${id}`, {
             method: 'DELETE'

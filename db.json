@@ -1,11 +1,14 @@
 {
-  "clientes": [
+  "estudiantes": [
     {
-      "nombre": "Juan NUEVO!",
-      "email": "correo2@correo.com",
-      "telefono": "12",
-      "empresa": "12212",
-      "id": 26
+      "nombre": "jhostter",
+      "matricula": "8909",
+      "lenguaje": "12",
+      "matematicas": "12",
+      "sociales": "34",
+      "naturales": "25",
+      "aula": "Sexto",
+      "id": 1
     }
   ]
 }

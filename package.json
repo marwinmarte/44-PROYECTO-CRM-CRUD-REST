@@ -1,0 +1,19 @@
+{
+  "name": "44-proyecto-crm-crud-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marwinmarte/44-PROYECTO-CRM-CRUD-REST.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marwinmarte/44-PROYECTO-CRM-CRUD-REST/issues"
+  },
+  "homepage": "https://github.com/marwinmarte/44-PROYECTO-CRM-CRUD-REST#readme"
+}
