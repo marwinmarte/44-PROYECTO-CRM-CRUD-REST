@@ -1,14 +1,27 @@
 {
   "estudiantes": [
     {
-      "nombre": "jhostter",
-      "matricula": "8909",
-      "lenguaje": "12",
-      "matematicas": "12",
-      "sociales": "34",
-      "naturales": "25",
-      "aula": "Sexto",
+      "nombre": "Juan NUEVO!",
+      "asistencia": "2022-09-17",
+      "aula": "Segundo",
+      "matricula": "1234",
       "id": 1
+    }
+  ],
+  "pase-lista": [
+    {
+      "nombre": "Juan NUEVO!",
+      "asistencia": "2022-09-25",
+      "matricula": "1234",
+      "aula": "Segundo",
+      "id": 1
+    },
+    {
+      "nombre": "Juan NUEVO!",
+      "asistencia": "2022-09-30",
+      "matricula": "1234",
+      "aula": "Segundo",
+      "id": 2
     }
   ]
 }

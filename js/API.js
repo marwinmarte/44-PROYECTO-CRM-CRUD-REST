@@ -1,8 +1,9 @@
 const url = "http://localhost:3000/estudiantes"; 
+const url2 = "http://localhost:3000/pase-lista"; 
 
-export const nuevoEstudiante = async estudiante => {
+export const nuevaAsistencia = async estudiante => {
     try {
-        await fetch(url, {
+        await fetch(url2, {
             method: 'POST', 
             body: JSON.stringify(estudiante), // data puede ser string o un objeto
             headers:{
@@ -17,6 +18,17 @@ export const nuevoEstudiante = async estudiante => {
 export const obtenerEstudiantes = async () => {
     try {
         const resultado = await fetch(url);
+        const estudiantes = await resultado.json();
+        return estudiantes;
+    } catch (error) {
+        console.log(error);
+    }
+    
+}
+
+export const obtenerAsistencia = async () => {
+    try {
+        const resultado = await fetch(url2);
         const estudiantes = await resultado.json();
         return estudiantes;
     } catch (error) {
@@ -52,6 +64,16 @@ export const editarEstudiante = async estudiante => {
 export const eliminarEstudiante = async id => {
     try {
         await fetch(`${url}/${id}`, {
+            method: 'DELETE'
+        });
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+export const eliminarLista = async id => {
+    try {
+        await fetch(`${url2}/${id}`, {
             method: 'DELETE'
         });
     } catch (error) {

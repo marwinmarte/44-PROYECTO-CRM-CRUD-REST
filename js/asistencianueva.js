@@ -1,4 +1,50 @@
-import {obtenerEstudiante, editarEstudiante } from './API.js';
+// import {nuevaAsistencia, obtenerEstudiante } from './API.js';
+// import { mostrarAlerta } from './funciones.js';
+
+// (function() {
+//     const formulario = document.querySelector('#formulario');
+//     formulario.addEventListener('submit', validarEstudiante);
+
+//     async function validarEstudiante(e) {
+//         e.preventDefault();
+
+//         const nombre = document.querySelector('#nombre').value;
+//         const matricula = document.querySelector('#matricula').value; 
+//         const asistencia = document.querySelector('#asistencia').value;
+//         // const matematicas = document.querySelector('#matematicas').value;
+//         // const sociales = document.querySelector('#sociales').value;
+//         // const naturales = document.querySelector('#naturales').value; 
+//         const aula = document.querySelector('#aula').value;  
+
+//         const estudiante = {
+//             nombre, 
+//             matricula,
+//             asistencia,
+//             // matematicas,
+//             // sociales,
+//             // naturales,
+//             aula
+//         }
+
+//         if( validar(estudiante) ) {
+//             mostrarAlerta('Todos los campos son obligatorios');
+//             return;
+//         }
+
+//     }
+
+    
+
+   
+
+//     function validar(obj) {
+//         return !Object.values(obj).every(element => element !== '') ;
+//     }
+
+   
+// })();
+
+import {obtenerEstudiante, nuevaAsistencia } from './API.js';
 import { mostrarAlerta } from './funciones.js';
 
 (function() {
@@ -28,16 +74,16 @@ import { mostrarAlerta } from './funciones.js';
     });
 
     function mostrarEstudiante(estudiante) {
-        const { nombre, matricula,asistencia, /*matematicas, sociales, naturales,*/ aula, id} = estudiante;
+        const { nombre, matricula,/*asistencia, matematicas, sociales, naturales,*/ aula, id} = estudiante;
 
         nombreInput.value = nombre;
         matriculaInput.value = matricula;
-        asistenciaInput.value = asistencia;
+        // asistenciaInput.value = asistencia;
         // matematicasInput.value = matematicas;
         // socialesInput.value = sociales;
         // naturalesInput.value = naturales;
         aulaInput.value = aula;
-        idInput.value = id;
+        // idInput.value = id;
     }
 
 
@@ -46,19 +92,22 @@ import { mostrarAlerta } from './funciones.js';
         const estudiante = {
             nombre: nombreInput.value, 
             asistencia: asistenciaInput.value,
-            // matematicas: matematicasInput.value,
+            matricula: matriculaInput.value,
             // sociales: socialesInput.value,
             // naturales: naturalesInput.value,
             aula: aulaInput.value,
-            id: parseInt(idInput.value)
+            // id: parseInt(idInput.value)
         }
         if( validar(estudiante) ) {
             mostrarAlerta('Todos los campos son obligatorios');
             return;
         }
 
-        await editarEstudiante(estudiante);
-        window.location.href = 'index.html';
+        // await editarEstudiante(estudiante);
+        // window.location.href = 'index.html';
+        await nuevaAsistencia(estudiante);
+        window.location.href = 'index2.html';
+        
     }
 
 
