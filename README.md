@@ -11,7 +11,7 @@ Para instalar JSON Server utilizamos la terminal y ponemos :
 npm install -g json-server
 ```
 
-Si estas en MAC utilizas pones sudo antes del comando.
+Si estas en MAC utilizas sudo antes del comando.
 
 Despues debemos asignarle un puerto al db.json que funcionara como nuestra Base de Datos asi que agregamos el siguiente comando: 
 
