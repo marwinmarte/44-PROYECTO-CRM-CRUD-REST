@@ -1,5 +1,8 @@
 # PROYECTO-CRM-CRUD-REST
 
+Este proyecto es una prueba tecnica [Prueba técnica.pdf](https://github.com/marwinmarte/44-PROYECTO-CRM-CRUD-REST/files/9544723/Prueba.tecnica.pdf)
+
+
 En este proyecto se uso node.js y json server.
 Ademas se edito el codigo con VS Code, utilizando la extencion Live Server.
 
