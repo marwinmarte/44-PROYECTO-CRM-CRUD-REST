@@ -3,7 +3,7 @@
     {
       "nombre": "marwin",
       "matricula": "1234",
-      "lenguaje": "56",
+      "lenguaje": "70",
       "matematicas": "90",
       "sociales": "83",
       "naturales": "78",
@@ -12,7 +12,7 @@
     },
     {
       "nombre": "marwin",
-      "matricula": "1234",
+      "matricula": "1024",
       "lenguaje": "90",
       "matematicas": "80",
       "sociales": "70",
@@ -21,44 +21,30 @@
       "id": 3
     },
     {
-      "nombre": "wswww",
-      "matricula": "adads",
-      "lenguaje": "1212",
-      "matematicas": "1212",
+      "nombre": "manuel marte",
+      "matricula": "1062",
+      "lenguaje": "83",
+      "matematicas": "100",
       "sociales": "12",
-      "naturales": "45",
+      "naturales": "90",
       "aula": "Quinto",
       "id": 4
     }
   ],
   "pase-lista": [
     {
-      "nombre": "Juan NUEVO!",
-      "asistencia": "2022-09-25",
+      "nombre": "marwin",
+      "asistencia": "2022-09-21",
       "matricula": "1234",
-      "aula": "Segundo",
+      "aula": "Primero",
       "id": 1
     },
     {
-      "nombre": "Juan NUEVO!",
-      "asistencia": "2022-09-30",
-      "matricula": "1234",
-      "aula": "Segundo",
-      "id": 2
-    },
-    {
-      "nombre": "marwin",
-      "asistencia": "2022-09-30",
-      "matricula": "1234",
-      "aula": "Cuarto",
-      "id": 4
-    },
-    {
-      "nombre": "wswww",
-      "asistencia": "2022-09-08",
-      "matricula": "adads",
+      "nombre": "manuel marte",
+      "asistencia": "2022-09-13",
+      "matricula": "1062",
       "aula": "Quinto",
-      "id": 5
+      "id": 2
     }
   ]
 }
