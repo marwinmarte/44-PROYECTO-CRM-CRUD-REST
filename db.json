@@ -1,9 +1,9 @@
 {
   "estudiantes": [
     {
-      "nombre": "marwin",
+      "nombre": "Marwin Marte",
       "matricula": "1234",
-      "lenguaje": "70",
+      "lenguaje": "52",
       "matematicas": "90",
       "sociales": "83",
       "naturales": "78",
@@ -11,7 +11,7 @@
       "id": 2
     },
     {
-      "nombre": "marwin",
+      "nombre": "Jose Francisco",
       "matricula": "1024",
       "lenguaje": "90",
       "matematicas": "80",
@@ -21,7 +21,7 @@
       "id": 3
     },
     {
-      "nombre": "manuel marte",
+      "nombre": "Manuel Marte",
       "matricula": "1062",
       "lenguaje": "83",
       "matematicas": "100",
@@ -31,30 +31,23 @@
       "id": 4
     },
     {
-      "nombre": "juan espinosa",
-      "matricula": "2433",
-      "lenguaje": "78",
-      "matematicas": "90",
-      "sociales": "80",
-      "naturales": "99",
-      "aula": "Quinto",
-      "id": 5
+      "nombre": "Alfredo Florentino",
+      "matricula": "4325",
+      "lenguaje": "89",
+      "matematicas": "76",
+      "sociales": "93",
+      "naturales": "98",
+      "aula": "Sexto",
+      "id": 6
     }
   ],
   "pase-lista": [
     {
-      "nombre": "marwin",
-      "asistencia": "2022-09-21",
-      "matricula": "1234",
-      "aula": "Primero",
-      "id": 1
-    },
-    {
-      "nombre": "manuel marte",
-      "asistencia": "2022-09-13",
+      "nombre": "Manuel Marte",
+      "asistencia": "2022-09-15",
       "matricula": "1062",
       "aula": "Quinto",
-      "id": 2
+      "id": 1
     }
   ]
 }
