@@ -12,17 +12,18 @@
             <h1 class="uppercase text-white tracking-wide text-2xl  font-bold mt-2">CRM - IndexedDB</h1>
             <p class="mt-10 text-white">Administra tus Estudiantes con el CRM - IndexedDB</p>
             <nav class="mt-8">
+
                 <a  
-                    href="/" 
-                    class="px-3 py-1 text-white block hover:bg-teal-900 hover:text-yellow-400 bg-teal-900"
+                    href="index.html" 
+                    class="px-3 py-1 text-white block hover:bg-teal-700 hover:text-yellow-400 "
                 >Estudiantes</a>
                 <a 
                     href="nuevo-estudiante.html" 
                     class="px-3 py-1 text-white block hover:bg-teal-700 mt-2 hover:text-yellow-400"
                 >Nuevo Estudiante</a>
                 <a  
-                href="asistencia-lista.html" 
-                class="px-3 py-1 text-white block hover:bg-teal-700 mt-2 hover:text-yellow-400 "
+                href="/" 
+                class="px-3 py-1 text-white block hover:bg-teal-900 mt-2 hover:text-yellow-400 bg-teal-900"
                 >Lista de Asistencia</a>
             </nav>
         </aside> <!--sidebar--> 
@@ -31,7 +32,7 @@
 
             
 
-            <h2 class="text-3xl font-light text-center">Estudiantes</h2>
+            <h2 class="text-3xl font-light text-center">Listado Asistencia</h2>
 
             <div class="flex flex-col mt-10">
                 <div class="py-2 overflow-x-auto">
@@ -44,9 +45,9 @@
                                 </th>
                                 
                                 <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
-                                    Lenguaje
+                                    Asistencia
                                 </th>
-                                <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                <!-- <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
                                     Matematicas
                                 </th>
                                 <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
@@ -54,23 +55,25 @@
                                 </th>
                                 <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
                                     Naturales
-                                </th>
+                                </th> -->
                                 <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
                                     Aula
                                 </th>
 
                                 <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
-                                        Acciones
+                                    Acciones
                                 </th>
                             </tr>
                         </thead>
-                        <tbody id="listado-estudiantes" class="bg-white"></tbody>
+                        <tbody id="listado-asistencia" class="bg-white"></tbody>
                     </table>
                   </div>
                 </div>
               </div>
         </main>
     </div>
-    <script src="js/app.js" type="module"></script>
+
+
+    <script src="js/asistencialista.js" type="module"></script>
 </body>
 </html>

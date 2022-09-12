@@ -1,14 +1,64 @@
 {
   "estudiantes": [
     {
-      "nombre": "jhostter",
-      "matricula": "8909",
-      "lenguaje": "12",
-      "matematicas": "12",
-      "sociales": "34",
-      "naturales": "25",
-      "aula": "Sexto",
+      "nombre": "marwin",
+      "matricula": "1234",
+      "lenguaje": "56",
+      "matematicas": "90",
+      "sociales": "83",
+      "naturales": "78",
+      "aula": "Primero",
+      "id": 2
+    },
+    {
+      "nombre": "marwin",
+      "matricula": "1234",
+      "lenguaje": "90",
+      "matematicas": "80",
+      "sociales": "70",
+      "naturales": "60",
+      "aula": "Cuarto",
+      "id": 3
+    },
+    {
+      "nombre": "wswww",
+      "matricula": "adads",
+      "lenguaje": "1212",
+      "matematicas": "1212",
+      "sociales": "12",
+      "naturales": "45",
+      "aula": "Quinto",
+      "id": 4
+    }
+  ],
+  "pase-lista": [
+    {
+      "nombre": "Juan NUEVO!",
+      "asistencia": "2022-09-25",
+      "matricula": "1234",
+      "aula": "Segundo",
       "id": 1
+    },
+    {
+      "nombre": "Juan NUEVO!",
+      "asistencia": "2022-09-30",
+      "matricula": "1234",
+      "aula": "Segundo",
+      "id": 2
+    },
+    {
+      "nombre": "marwin",
+      "asistencia": "2022-09-30",
+      "matricula": "1234",
+      "aula": "Cuarto",
+      "id": 4
+    },
+    {
+      "nombre": "wswww",
+      "asistencia": "2022-09-08",
+      "matricula": "adads",
+      "aula": "Quinto",
+      "id": 5
     }
   ]
 }

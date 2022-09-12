@@ -45,6 +45,7 @@ import { mostrarAlerta } from './funciones.js';
         e.preventDefault();
         const estudiante = {
             nombre: nombreInput.value, 
+            matricula: matriculaInput.value,
             lenguaje: lenguajeInput.value,
             matematicas: matematicasInput.value,
             sociales: socialesInput.value,
