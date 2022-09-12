@@ -8,6 +8,7 @@ import { mostrarAlerta } from './funciones.js';
     async function validarEstudiante(e) {
         e.preventDefault();
 
+        // Leer todos los campos del form
         const nombre = document.querySelector('#nombre').value;
         const matricula = document.querySelector('#matricula').value; 
         const lenguaje = document.querySelector('#lenguaje').value;
@@ -16,6 +17,8 @@ import { mostrarAlerta } from './funciones.js';
         const naturales = document.querySelector('#naturales').value; 
         const aula = document.querySelector('#aula').value;  
 
+        // usando Object Literal Enhancement
+        //combina todas las variables en un Objeto estudiante
         const estudiante = {
             nombre, 
             matricula,
@@ -27,6 +30,7 @@ import { mostrarAlerta } from './funciones.js';
         }
 
         if( validar(estudiante) ) {
+            // Mostrar Mensaje
             mostrarAlerta('Todos los campos son obligatorios');
             return;
         }
@@ -36,7 +40,7 @@ import { mostrarAlerta } from './funciones.js';
 
 
    
-
+    // Validando que no haya un campo vacio en el objeto estudiante
     function validar(obj) {
         return !Object.values(obj).every(element => element !== '') ;
     }

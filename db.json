@@ -29,6 +29,16 @@
       "naturales": "90",
       "aula": "Quinto",
       "id": 4
+    },
+    {
+      "nombre": "juan espinosa",
+      "matricula": "2433",
+      "lenguaje": "78",
+      "matematicas": "90",
+      "sociales": "80",
+      "naturales": "99",
+      "aula": "Quinto",
+      "id": 5
     }
   ],
   "pase-lista": [

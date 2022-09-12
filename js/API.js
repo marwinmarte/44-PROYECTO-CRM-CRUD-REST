@@ -5,11 +5,12 @@ const url = "http://localhost:3000/estudiantes";
 const url2 = "http://localhost:3000/pase-lista"; 
 
 
+// para crear un nuevo estudiante
 export const nuevoEstudiante = async estudiante => {
     try {
         await fetch(url, {
             method: 'POST', 
-            body: JSON.stringify(estudiante), // data puede ser string o un objeto
+            body: JSON.stringify(estudiante), // data puede ser string o un objeto, asi que lo convertimos a string
             headers:{
               'Content-Type': 'application/json' // Y le decimos que los datos se enviaran como JSON
             }
@@ -23,7 +24,7 @@ export const nuevaAsistencia = async estudiante => {
     try {
         await fetch(url2, {
             method: 'POST', 
-            body: JSON.stringify(estudiante), // data puede ser string o un objeto
+            body: JSON.stringify(estudiante), // data puede ser string o un objeto, asi que lo convertimos a string
             headers:{
               'Content-Type': 'application/json' // Y le decimos que los datos se enviaran como JSON
             }
@@ -33,6 +34,7 @@ export const nuevaAsistencia = async estudiante => {
     }
 }
 
+// para obtener todos los estudiantes
 export const obtenerEstudiantes = async () => {
     try {
         const resultado = await fetch(url);
@@ -42,7 +44,7 @@ export const obtenerEstudiantes = async () => {
         console.log(error);
     }
 }
-
+// para obtener la asistencia
 export const obtenerAsistencia = async () => {
     try {
         const resultado = await fetch(url2);
@@ -53,6 +55,7 @@ export const obtenerAsistencia = async () => {
     }
 }
 
+// Obtiene un estudiante por su ID para la edicion
 export const obtenerEstudiante = async id => {
     try {
         const resultado = await fetch(`${url}/${id}`);
@@ -63,7 +66,7 @@ export const obtenerEstudiante = async id => {
     }
 }
 
-
+// Actualiza un registro
 export const editarEstudiante = async estudiante => {
     try {
         await fetch(`${url}/${estudiante.id}`, {
@@ -78,6 +81,7 @@ export const editarEstudiante = async estudiante => {
     }
 }
 
+// Elimina el estudiante
 export const eliminarEstudiante = async id => {
     try {
         await fetch(`${url}/${id}`, {

@@ -23,16 +23,16 @@ import { obtenerEstudiantes, eliminarEstudiante} from './API.js';
 
         function notaLiteral(n) {
             if(n >= 90) {
-                return "A"
+                return "A";
             }
             else if(n >= 80) {
-                return "B"
+                return "B";
             }
             else if(n >= 70) {
-                return "C"
+                return "C";
             }
             else if(n <= 69) {
-                return "F"
+                return "F";
             }
 
         }

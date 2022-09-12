@@ -3,7 +3,7 @@ import { mostrarAlerta } from './funciones.js';
 
 (function() {
 
-
+    // Campos del Formulario
     const nombreInput = document.querySelector('#nombre');
     const matriculaInput = document.querySelector('#matricula');
     const lenguajeInput = document.querySelector('#lenguaje');
@@ -62,7 +62,7 @@ import { mostrarAlerta } from './funciones.js';
         window.location.href = 'index.html';
     }
 
-
+    // Validando que no haya un campo vacio en el objeto estudiante
     function validar(obj) {
         return !Object.values(obj).every(element => element !== '') ;
     }
