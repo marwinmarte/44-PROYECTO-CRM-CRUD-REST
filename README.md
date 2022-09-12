@@ -1,6 +1,7 @@
 # PROYECTO-CRM-CRUD-REST
 
-En este proyecto se uso node.js y json server
+En este proyecto se uso node.js y json server.
+Ademas se edito el codigo con VS Code, utilizando la extencion Live Server.
 
 ## Empezando las instalaciones
 
