@@ -1,5 +1,7 @@
 # PROYECTO-CRM-CRUD-REST
 
+https://pruebatecnica-mm.netlify.app
+
 Este proyecto es una aplicación web que permite realizar las operaciones básicas CRUD.
 
 En la cual le permite a Pedro gestionar sus estudiantes, sus calificaciones y las asistencias.
