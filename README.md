@@ -7,6 +7,7 @@ El mismo esta basado en esta [Prueba técnica.pdf](https://github.com/marwinmart
 
 En este proyecto se uso node.js y json server.
 Además se edito el código con VS Code, utilizando la extensión Live Server.
+Utilizando HTML, CSS con TailWind y Vanilla JavaScript.
 
 ## Empezando las instalaciones
 
